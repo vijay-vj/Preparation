@@ -14,7 +14,7 @@ public class MaxAreaInHistorgram {
 	}
 	
 	public static long maxArea(long[] arr) {
-	    Stack<Integer> stack = new Stack<>();
+	    Stack<Integer> stack = new Stack<Integer>();
 	    long maxArea = 0L;
 	    int i = 0;
 	    int n = arr.length;

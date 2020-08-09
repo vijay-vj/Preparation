@@ -26,7 +26,7 @@ public class Nextlargerelement {
 	
 	public static void nextLargerElementv1(int[] arr) {
 		
-		Stack<Integer> a = new Stack<>();
+		Stack<Integer> a = new Stack<Integer>();
 		for(int i=0; i<arr.length; i++) {
 			if(a.empty() || arr[i]  < arr[a.peek()]) {
 				a.push(i);

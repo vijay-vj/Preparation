@@ -79,7 +79,7 @@ public class CrashingStone {
 	public static int lastStoneWeightV2(List<Integer> weights) {
 		int runningSum = 0;
 		if (weights.size() > 0) {
-			PriorityQueue<Integer> weightQueue = new PriorityQueue<>(Collections.reverseOrder());
+			PriorityQueue<Integer> weightQueue = new PriorityQueue<Integer>(Collections.reverseOrder());
 			for (int i = 0; i < weights.size(); i++) {
 				weightQueue.offer(weights.get(i));
 			}
